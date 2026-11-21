@@ -1,4 +1,4 @@
-# SigmaOS-mint-command-processor
+# SigmaOS-command-processor
 
 Command processor for SigmaOS inspired by Linux Mint
 

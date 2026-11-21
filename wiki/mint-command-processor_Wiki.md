@@ -1,50 +1,50 @@
-# SigmaOS-SigmaOS-mint-command-processor Component Wiki
+# SigmaOS-SigmaOS-command-processor Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-mint-command-processor provides Command processor for SigmaOS inspired by Linux Mint for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-SigmaOS-command-processor provides Command processor for SigmaOS inspired by Linux Mint for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
 - Single Responsibility
-- SigmaOS-mint-command-processor Abstraction
-- Fail-Fast on SigmaOS-mint-command-processor Initialization Errors
-- Deterministic SigmaOS-mint-command-processor Setup
-- Clear Abstraction Over SigmaOS-mint-command-processor APIs
-- Composition over Inheritance for SigmaOS-mint-command-processor extensions
+- SigmaOS-command-processor Abstraction
+- Fail-Fast on SigmaOS-command-processor Initialization Errors
+- Deterministic SigmaOS-command-processor Setup
+- Clear Abstraction Over SigmaOS-command-processor APIs
+- Composition over Inheritance for SigmaOS-command-processor extensions
 
 ## Architecture
-SigmaOS-SigmaOS-mint-command-processor follows a SigmaOS-mint-command-processor pattern:
-- **SigmaOS-mint-command-processor Core**: Provides SigmaOS-mint-command-processor support, SigmaOS-mint-command-processor management, and SigmaOS-mint-command-processor tracking
-- **Management**: Supports SigmaOS-mint-command-processor management, SigmaOS-mint-command-processor configuration, and SigmaOS-mint-command-processor lifecycle
-- **Tracking**: Supports SigmaOS-mint-command-processor status, SigmaOS-mint-command-processor tracking, and SigmaOS-mint-command-processor lifecycle
-- **Error Handling**: Fail-fast on invalid SigmaOS-mint-command-processor configurations or unsupported SigmaOS-mint-command-processor types
+SigmaOS-SigmaOS-command-processor follows a SigmaOS-command-processor pattern:
+- **SigmaOS-command-processor Core**: Provides SigmaOS-command-processor support, SigmaOS-command-processor management, and SigmaOS-command-processor tracking
+- **Management**: Supports SigmaOS-command-processor management, SigmaOS-command-processor configuration, and SigmaOS-command-processor lifecycle
+- **Tracking**: Supports SigmaOS-command-processor status, SigmaOS-command-processor tracking, and SigmaOS-command-processor lifecycle
+- **Error Handling**: Fail-fast on invalid SigmaOS-command-processor configurations or unsupported SigmaOS-command-processor types
 
 ## API
 The component provides the following public APIs:
--  - Manage a SigmaOS-mint-command-processor by given configuration
--  - Register a SigmaOS-mint-command-processor by given name
--  - Get SigmaOS-mint-command-processor status and SigmaOS-mint-command-processor availability
--  - Track SigmaOS-mint-command-processor management and SigmaOS-mint-command-processor tracking
-- Error types for SigmaOS-mint-command-processor failure scenarios or unsupported SigmaOS-mint-command-processor types
+-  - Manage a SigmaOS-command-processor by given configuration
+-  - Register a SigmaOS-command-processor by given name
+-  - Get SigmaOS-command-processor status and SigmaOS-command-processor availability
+-  - Track SigmaOS-command-processor management and SigmaOS-command-processor tracking
+- Error types for SigmaOS-command-processor failure scenarios or unsupported SigmaOS-command-processor types
 
 ## Test Structure (Arrange-Act-ASSERT)
 All tests follow the AAA pattern:
-1. **Arrange**: Set up test environment with specific SigmaOS-mint-command-processor configuration
-2. **Act**: Execute the code under test (SigmaOS-mint-command-processor init, SigmaOS-mint-command-processor management)
-3. **Assert**: Verify the expected SigmaOS-mint-command-processor results
+1. **Arrange**: Set up test environment with specific SigmaOS-command-processor configuration
+2. **Act**: Execute the code under test (SigmaOS-command-processor init, SigmaOS-command-processor management)
+3. **Assert**: Verify the expected SigmaOS-command-processor results
 
 Example:
 
 
 ## Development
 - Follows Rust best practices with 
-- SigmaOS-mint-command-processor initialization is best-effort; gracefully degrades on unsupported configurations
-- Comprehensive error types for all SigmaOS-mint-command-processor failure scenarios
-- Unit tests provided for SigmaOS-mint-command-processor management and configuration
-- Integration tests for full SigmaOS-mint-command-processor system with actual SigmaOS-mint-command-processor integration
+- SigmaOS-command-processor initialization is best-effort; gracefully degrades on unsupported configurations
+- Comprehensive error types for all SigmaOS-command-processor failure scenarios
+- Unit tests provided for SigmaOS-command-processor management and configuration
+- Integration tests for full SigmaOS-command-processor system with actual SigmaOS-command-processor integration
 
 ## TODO
-- Add support for additional SigmaOS-mint-command-processor types
-- Expand SigmaOS-mint-command-processor capabilities (SigmaOS-mint-command-processor features, SigmaOS-mint-command-processor configurations, SigmaOS-mint-command-processor tracking)
-- Add lifecycle features (SigmaOS-mint-command-processor tracking, SigmaOS-mint-command-processor lifecycle, SigmaOS-mint-command-processor propagation)
-- Create integration tests with actual SigmaOS-mint-command-processor systems and SigmaOS-mint-command-processor integration
-- Implement SigmaOS-mint-command-processor persistence and SigmaOS-mint-command-processor state management
+- Add support for additional SigmaOS-command-processor types
+- Expand SigmaOS-command-processor capabilities (SigmaOS-command-processor features, SigmaOS-command-processor configurations, SigmaOS-command-processor tracking)
+- Add lifecycle features (SigmaOS-command-processor tracking, SigmaOS-command-processor lifecycle, SigmaOS-command-processor propagation)
+- Create integration tests with actual SigmaOS-command-processor systems and SigmaOS-command-processor integration
+- Implement SigmaOS-command-processor persistence and SigmaOS-command-processor state management

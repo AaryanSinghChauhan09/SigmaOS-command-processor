@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Apache-2.0
-//! SigmaOS-mint-command-processor: mint command processor component model.
+//! SigmaOS-command-processor: mint command processor component model.
 //!
 //! Real implementation: processors, events, validation, deterministic storage.
 //! Replaces the placeholder stub.
